@@ -1,0 +1,149 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+img {
+    width: 100%
+}
+
+H1 {
+    padding-top: 20px;
+}
+
+.eight,
+h2,
+.sustain {
+    padding-top: 15px;
+}
+
+body {
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    padding-top: 20px;
+}
+
+.face {
+    justify-content: flex-end;
+    display: flex;
+    width: 40%;
+    align-items: center;
+    margin-left: 260px;
+}
+
+.contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+
+.link {
+    position: relative;
+    padding-bottom: 28px;
+    padding-top: 30px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+span {
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+
+.card {
+    padding-bottom: 18px;
+}
+
+.up {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 2rem;
+}
+
+.beauty {
+    color: white;
+    position: absolute;
+    top: 27%;
+    display: flex;
+    left: 10%;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    width: 80%;
+    height: 30%;
+    margin: auto;
+}
+
+.call {
+    padding-left: 60px;
+    /* padding-right: 60px; */
+}
+
+
+.box {
+    display: grid;
+    gap: 2rem;
+    padding-top: 40px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 auto;
+}
+
+@media (max-width: 850px) {
+    .box {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 600px) {
+    .box {
+        grid-template-columns: 1fr;
+    }
+}
+
+button {
+    background-color: orange;
+    border: none;
+    width: 50px;
+    height: 30px;
+    border-radius: 4px;
+}
+
+.features {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.but {
+    padding-top: 15px;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+
+
+
+
+@media (min-width: 700px) {
+    img {
+        width: 100%;
+    }
+}
